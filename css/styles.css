@@ -696,7 +696,11 @@ margin-bottom: 16px;
 
 .backdrop-input.comment:hover,
 .backdrop-input.comment:focus {
-    background-color: #4d5ae5;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    border-color: #4d5ae5;
 }
 
 .backdrop-lable-privatpolicy {
@@ -736,6 +740,7 @@ margin-bottom: 16px;
     margin-bottom: 24px;
 }
 .custom-checkbox {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     display: inline-flex;
@@ -757,7 +762,16 @@ margin-bottom: 16px;
        
     }
 
-.backdrop-checkbox:checked + .backdrop-lable-privatpolicy > .custom-check-icon{
+.visually-hidden:checked + .backdrop-lable-privatpolicy > .custom-check-icon{
         fill: #404bbf;
         border: 1px solid #404bbf;
+}
+
+.visually-hidden:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
+.backdrop-link {
+    color: #4d5ae5;
 }
