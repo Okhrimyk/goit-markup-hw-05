@@ -740,7 +740,6 @@ margin-bottom: 16px;
     margin-bottom: 24px;
 }
 .custom-checkbox {
-    display: inline-flex;
     width: 16px;
     height: 16px;
     display: inline-flex;
@@ -750,9 +749,6 @@ margin-bottom: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    position: absolute;
-    left: 0;
-    top: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -762,15 +758,17 @@ margin-bottom: 16px;
        
     }
 
-.visually-hidden:checked + .backdrop-lable-privatpolicy > .custom-check-icon{
-        fill: #404bbf;
-        border: 1px solid #404bbf;
-}
+.visually-hidden:checked + .backdrop-lable-privatpolicy > .custom-check-icon {
+        background-color: #404bbf;
+        border: none;
+        fill: #f4f4fd;
+        }
 
-.visually-hidden:checked {
+
+/* .visually-hidden:checked {
     background-color: #404bbf;
     border: none;
-    fill: #f4f4fd;
+    fill: #f4f4fd; */
 }
 .backdrop-link {
     color: #4d5ae5;
