@@ -442,18 +442,22 @@ margin-bottom: 8px;}
     fill: #f4f4fd;
 }
 
-.footer-form {
+.footer-form-wrap {
     margin-left:auto
 }
 
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
 
 .footer-form-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #fff;
-margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer-lable {
@@ -556,7 +560,7 @@ margin-bottom: 16px;
     background-color:  #fcfcfc;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%);
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
 }
 
 .backdrop-button-close {
@@ -570,9 +574,11 @@ margin-bottom: 16px;
     top: 24px;
     right: 24px;
     background-color: #e7e9fc;
-    border-radius: 100%;
+    border-radius: 50%;
     stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
+    border:1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -599,10 +605,10 @@ margin-bottom: 16px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 40px;
-    padding-bottom: 16px;
+    padding-top: 40px;    
     margin: 0px auto;
     max-width: 360px;
+    margin-bottom: 16px;
 }
 
 .backdrop-lable {
