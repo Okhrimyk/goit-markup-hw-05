@@ -549,8 +549,8 @@ margin-bottom: 8px;}
  }
 
 .backdro:not(.is-open) .modal{
-    transform: translate: (-50%, -50%) scale(1.5);
-  }
+    transform: translate (-50%, -50%) scale(1.5);
+}
 
 .modal {
     position: absolute;
@@ -727,7 +727,7 @@ margin-bottom: 16px;
 .backdrop-submit-button {   
     letter-spacing: 0.04em;  
     margin-top: 24px; */
-}
+
 
 .backdrop-link {
     color: #4d5ae5;
