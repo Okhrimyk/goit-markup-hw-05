@@ -729,7 +729,7 @@ color: #31d0aa;
 }
 
 .visually-hidden:checked+.backdrop-lable-privatpolicy>.custom-checkbox>.custom-check-icon {
-    fill: #f4f4fd;
+    fill:#F4F4FD;
 }
 .visually-hidden:checked+.backdrop-lable-privatpolicy>.custom-checkbox {
     background-color: #404bbf;
